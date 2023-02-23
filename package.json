@@ -8,6 +8,12 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.2.2"
+    "@prettier/plugin-pug": "^2.4.1",
+    "@tsconfig/strictest": "^1.0.2",
+    "@volar/vue-language-plugin-pug": "^1.1.7",
+    "nuxt": "^3.2.2",
+    "prettier": "^2.8.4",
+    "pug": "^3.0.2",
+    "sass": "^1.58.3"
   }
 }
