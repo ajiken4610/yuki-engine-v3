@@ -3,7 +3,12 @@ export default defineNuxtConfig({
   ssr: false,
   typescript: {
     tsConfig: {
-      extends: "@tsconfig/strictest/tsconfig.ts",
+      extends: "@tsconfig/strictest/tsconfig.json",
+    },
+  },
+  vue: {
+    compilerOptions: {
+      isCustomElement: (tag) => !!tag.match(/^a-.*$/),
     },
   },
 });
