@@ -14,6 +14,7 @@
     "@types/three": "^0.149.0",
     "@volar/vue-language-plugin-pug": "^1.1.7",
     "aframe": "^1.4.1",
+    "animejs": "^3.2.1",
     "nuxt": "^3.2.2",
     "prettier": "^2.8.4",
     "pug": "^3.0.2",
