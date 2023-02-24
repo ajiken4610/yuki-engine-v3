@@ -1,6 +1,6 @@
 <template lang="pug">
 div
-  a-scene(index)
+  a-scene(test-aframe)
     a-box.raycast(
       :position="`0 ${yPos} -3`",
       :rotation="`${xRot} ${yRot} ${zRot}`",
@@ -28,7 +28,7 @@ const logHello = () => {
 };
 const colors = ["red", "lime", "blue"];
 const cubeColor = computed(() => colors[colorIndex.value])
-AFRAME.registerSystem("index", {
+AFRAME.registerSystem("test-aframe", {
   tick: (time) => {
     const elapsed = time / 1000
     yPos.value = Math.sin(elapsed);
